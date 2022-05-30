@@ -22,7 +22,7 @@ export default function Footer() {
           <CustomLink url={'https://www.linkedin.com/in/mariam-viera-amado'}>
             <BsLinkedin size={'28px'}/>
           </CustomLink>
-          <CustomLink>
+          <CustomLink url={'https://github.com/mvieraamado'}>
             <BsGithub size={'28px'}/>
           </CustomLink>
         </Stack>
