@@ -1,11 +1,18 @@
 import './App.css';
+import ProjectsContainer from './components/ProjectsContainer';
+import Footer from './components/Footer';
+import MainSection from './components/MainSection';
+import Navbar from './components/Navbar';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <div className="app">
-      <header className="app-header">
-        App
-      </header>
+      <Navbar />
+      <MainSection /> 
+      <ProjectsContainer />
+      <Skills />
+      <Footer />
     </div>
   );
 }
