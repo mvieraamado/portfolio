@@ -56,7 +56,7 @@ export default function MainSection() {
             <BsGithub size={'35px'}/>
           </CustomLink>
         </Stack>
-        <CustomButton text='Download CV' font={'lg'} url={'https://drive.google.com/file/d/1A6LC9S-Hzv3S4qEedEH2DXRCw3wAff3A/view?usp=sharing'}/>
+        <CustomButton text='Download CV' font={'lg'} url={'https://drive.google.com/file/d/1FvlhYZZ_6rO4sD-yRVgewMMFR74KAvZB/view?usp=sharing'}/>
       </Stack>
     </Stack>
   );
