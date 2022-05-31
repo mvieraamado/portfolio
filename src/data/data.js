@@ -2,6 +2,7 @@ import calculatorApp from '../images/calculator-app.png';
 import caelumJoyas from '../images/caelum-joyas.png';
 import cityCakes from '../images/city-cakes.png';
 import counterApp from '../images/counter-app.png';
+import myTasks from '../images/my-tasks.png';
 
 const myProjects = [
   {
@@ -35,6 +36,14 @@ const myProjects = [
     url: 'https://pink-counter.netlify.app/',
     gitHub: 'https://github.com/mvieraamado/counter',
     description: 'CSS, React JS'
+  },
+  {
+    id: 5,
+    image: myTasks,
+    name: 'My Tasks',
+    url: 'https://mva-tasks.netlify.app',
+    gitHub: 'https://github.com/mvieraamado/reactjs-project',
+    description: 'Chakra UI, React JS'
   }
 ];
 
