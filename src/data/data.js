@@ -3,6 +3,7 @@ import caelumJoyas from '../images/caelum-joyas.png';
 import cityCakes from '../images/city-cakes.png';
 import counterApp from '../images/counter-app.png';
 import myTasks from '../images/my-tasks.png';
+import superhero from '../images/superhero.png';
 
 const myProjects = [
   {
@@ -23,6 +24,14 @@ const myProjects = [
   },
   {
     id: 3,
+    image: superhero,
+    name: 'Superhero',
+    url: 'https://my-superhero-team.netlify.app/',
+    gitHub: 'https://github.com/mvieraamado/challenge-react-js',
+    description: 'React Bootstrap, React JS, Axios, Formik, Superhero API'
+  },
+  {
+    id: 4,
     image: cityCakes,
     name: 'City Cakes',
     url: 'https://mvieraamado.github.io/javascript18040-city-cakes/',
@@ -30,7 +39,7 @@ const myProjects = [
     description: 'HTML, CSS, JavaScript, Jquery'
   },
   {
-    id: 4,
+    id: 5,
     image: counterApp,
     name: 'Counter',
     url: 'https://pink-counter.netlify.app/',
@@ -38,7 +47,7 @@ const myProjects = [
     description: 'CSS, React JS'
   },
   {
-    id: 5,
+    id: 6,
     image: myTasks,
     name: 'My Tasks',
     url: 'https://mva-tasks.netlify.app',
